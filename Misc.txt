@@ -3,6 +3,11 @@ Install DDvtk in mac:
 see macosx document in Doxygen/external
 
 
-Use operator of a class: 
+Use operator () of a class without object: 
+
+PeriodicLatticeInterpolant<2>::operator()(bL.segment<lowerDim>(0))
+
+when pointer:  
+gammaSurface? gammaSurface->operator()(b)
 
 
