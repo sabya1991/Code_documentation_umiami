@@ -1,0 +1,8 @@
+Install DDvtk in mac: 
+
+see macosx document in Doxygen/external
+
+
+Use operator of a class: 
+
+
