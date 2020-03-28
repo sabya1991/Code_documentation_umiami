@@ -1,0 +1,13 @@
+changes: 
+
+PeriodicLatticeInterpolant.h : 
+Add the constructor which has waveVector
+
+For the gamma phase, call PeriodicLatticeInterpolant without waveVector AND we use N1=N2=2. 
+For the gamma' phase, call " with waveVector AND we use N1=N2=3. 
+
+The waveVector needs to be constructed. In the test program, the matlab file makes it. In the code, we need to create it. 
+(NEEDS TO BE DONE) 
+
+
+
