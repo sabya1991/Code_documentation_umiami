@@ -1,0 +1,12 @@
+polycrystal.h: 
+
+C2G1=0.000000000000000e+00 7.071067811865475e-01 7.071067811865475e-01
+     0.816496580927726   0.408248290463863  -0.408248290463863
+     -0.577350269189626   0.577350269189626  -0.577350269189626;
+     
+initialMicrostructure.h: 
+# Individual straight dislocations
+straightDislocationsSlipSystemIDs=0 2;
+straightDislocationsAngleFromScrewOrientation=60.0 120.0;
+pointsAlongStraightDislocations=-300.0 0.0 0.0
+				300.0 0.0 0.0;
