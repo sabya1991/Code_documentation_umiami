@@ -1,4 +1,14 @@
-EshelbyInclusion.h
+EshelbyInclusion.h: 
+In function addSlipSystems, add insertion to gammaSurfaceMap. (refer to Model_gamma folder in Desktop)
+Also, add part to create waveVector and pass waveVector to the overloaded constructor of PeriodicLatticeInterpolant
+
+PeriodicLatticeInterpolant.h : 
+Add the constructor which has waveVector
+
 MicrostructureGenerator.h
-DislocationQuadraturePoint.h 
+
+DislocationQuadraturePoint.h: 
+In function "updateForcesAndVelocities", add the part due to SF force. 
+Add functions "isLeft" and "windingNumber". (refer to Model_gamma folder in Desktop)
+
 FCCLattice.h
