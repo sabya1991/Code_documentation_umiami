@@ -1,9 +1,14 @@
 EshelbyInclusion.h: 
 In function addSlipSystems, add insertion to gammaSurfaceMap. (refer to Model_gamma folder in Desktop)
-Also, add part to create waveVector and pass waveVector to the overloaded constructor of PeriodicLatticeInterpolant
+Also, add part to create waveVectorInt (integer coordinate of WaveVector). Then call gammaSurface with overloaded constructor which has waveVectorInt. 
+
+SlipSystem.h:
+Add overloaded constructor for Gamma surface which takes in waveVecInt and then passes it to the overloaded constructor of PeriodicLatticeInterpolant. 
 
 PeriodicLatticeInterpolant.h : 
-Add the constructor which has waveVector
+Add the constructor which has an overloaded constructor which takes integer coordinates of waveVectors called WaveVectorInt. Then it uses a function called 
+getWaveVecFromIntCoord which multiplies waveVecInt with Bmod to give the WaveVector. 
+
 
 MicrostructureGenerator.h
 
