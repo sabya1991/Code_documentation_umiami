@@ -10,7 +10,10 @@ Add the constructor which has an overloaded constructor which takes integer coor
 getWaveVecFromIntCoord which multiplies waveVecInt with Bmod to give the WaveVector. 
 
 
-MicrostructureGenerator.h
+MicrostructureGenerator.h : 
+-> Added the part where a second partial is inserted inside the loop of the first partial (so that the order of the partials is correct)
+-> removed randomSign in burgers vector in case of partials
+
 
 DislocationQuadraturePoint.h: 
 In function "updateForcesAndVelocities", add the part due to SF force. 
