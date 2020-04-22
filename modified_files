@@ -12,7 +12,7 @@ getWaveVecFromIntCoord which multiplies waveVecInt with Bmod to give the WaveVec
 
 MicrostructureGenerator.h : 
 -> Added the part where a second partial is inserted inside the loop of the first partial (so that the order of the partials is correct)
--> removed randomSign in burgers vector in case of partials
+-> removed randomSign in burgers vector in case of partials , also in case of full burgers vector (for our example only)
 
 
 DislocationQuadraturePoint.h: 
