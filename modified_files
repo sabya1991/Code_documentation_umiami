@@ -4,6 +4,7 @@ Also, add part to create waveVectorInt (integer coordinate of WaveVector). Then 
 
 SlipSystem.h:
 Add overloaded constructor for Gamma surface which takes in waveVecInt and then passes it to the overloaded constructor of PeriodicLatticeInterpolant. 
+change const position in misfitenergy. 
 
 PeriodicLatticeInterpolant.h : 
 Add the constructor which has an overloaded constructor which takes integer coordinates of waveVectors called WaveVectorInt. Then it uses a function called 
@@ -19,4 +20,5 @@ DislocationQuadraturePoint.h:
 In function "updateForcesAndVelocities", add the part due to SF force. 
 Add functions "isLeft" and "windingNumber". (refer to Model_gamma folder in Desktop)
 
-FCCLattice.h
+FCCLattice.h: remove extra 0 from df. 
+change nullptr in full dislocation slip system gamma surfaces just like in the case of partials (4 gammasurfaces)
