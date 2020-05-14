@@ -1,0 +1,10 @@
+1. Modules->Geometry->Elementary entities->Add->Box. 
+
+2. Suppose box size is B. 
+   Then give X=Y=Z=-B/2 and DX=DY=DZ=B. 
+
+3. Press q. 
+
+4. Mesh->3D 
+
+5. Export -> extension .msh, write filename as cube<B>.msh and save in ASCII Version 2 format. 
