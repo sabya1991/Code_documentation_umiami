@@ -1,0 +1,4 @@
+you can use the cameraState file to use the same view in all your plots
+if you right click DDviewer saves the cameraState.txt file
+then you can click c to load that file
+if you use the same file in all your snapshots the angle of view will be the same
