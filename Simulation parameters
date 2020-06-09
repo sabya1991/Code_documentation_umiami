@@ -1,0 +1,17 @@
+quadPerLength=1
+
+coreSize=10.0
+
+lmin=0.005, lmax=0.02 for 3000 size box
+lmin=0.0025, lmax=0.01 for 6000 size box  (I think lmin and lmax are functions of the mesh size, so when we keep them same, 
+                                           for larger box, I can see that segments are not smooth and can lead to higher 
+                                           cutoff stress)
+                                           
+                                           
+ExternalStrainRate=-1e-9 for f>0.2 approx
+                  =-1e-10 otherwise 
+                  
+Slow strain rate matters a lot when the cutoff stress is less. 
+Strain rate must be such that there is a stress drop when the cutoff event happens. 
+
+Put ExternalStrain0 a little below the cutoff stress. Then apply as slow loading rate as possible. 
