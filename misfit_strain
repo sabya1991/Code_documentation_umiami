@@ -1,0 +1,41 @@
+the gamma' phase has a slightly difference lattice constant 
+
+if a is the lattice constant of the gamma phase
+
+and a' is the lattice constant of the gamma' pahse
+
+misfit = 2(a'-a)/(a'+a)
+
+this is like a strain
+
+change in lattice constant / (average) lattice constant
+
+to fit the gamma' into gamma, you then need to stretch/contract the gamma pahse
+
+this causes a stress field
+
+the way we represent this field is with Eshelby's inclusion theory
+
+for that we need an eigendistortion tensor corresponding to the misfit
+
+since the misfit is volumetric
+
+the tensor would be isotropic
+
+so its an eigendistortion tensor with the misfit on the diagonal elements
+
+Eshelby's inclusions fields are already coded
+
+the expression for the fields are analytical for ellipsoidal inclusions
+
+therefore also for spherical inclusions
+
+the interesting thing is that the stress field inside an ellipsoidal inclusion is constant
+
+so the gamma' is at constant stress
+
+outside the inclusion there is a decaying field from the inclusion
+
+so the stress field decays in from the inclusion in the gamma phase
+
+long range stress. 
