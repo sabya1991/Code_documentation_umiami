@@ -1,0 +1,8 @@
+run with python3
+
+In example 6, 
+add: from ufl import nabla_div
+
+line 73,74: replace vector().array() with vector().get_local()
+
+remove interative() #deprecated
